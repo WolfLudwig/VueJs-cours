@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<body>
+    <div id="app">
+
+        <a target="blank" v-for="link in links" :href="link.path"> {{ link.title }}</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        let app = new Vue({
+            el: "#app",
+            data: {
+                links: [
+                    {
+                        title:"Youtube",
+                        path:"https://www.youtube.com/"
+                    },
+                    {
+                        title:"Facebook",
+                        path:"https://www.facebook.com/"
+                    },
+                    {
+                        title:"Google",
+                        path:"https://www.google.com/"
+                    },
+                    {
+                        title:"JVC",
+                        path:"http://www.jeuxvideo.com/"
+                    },
+                ]
+            }
+        }
+        )
+    </script>
+</body>
+</html>

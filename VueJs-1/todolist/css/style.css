@@ -1,0 +1,8 @@
+h1{
+    color: red;
+    text-shadow: black 3px 3px;
+    background-color: blue;
+}
+.done{
+    text-decoration: line-through;
+}

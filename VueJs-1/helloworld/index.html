@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style> 
+        .title{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1 :class="classTitle">
+            {{ message }}{{ name }}{{ point }}
+        </h1>
+    </div>
+
+    <div id="app2">
+        <a :href="link"><img :src="img" :alt="alt" v-if="seen"></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        let app = new Vue({
+            el: "#app",
+            data: {
+                message: "Bonjour, je m'appelle ",
+                name: "Ludwig",
+                point: ".",
+                classTitle: "title",
+            }
+        }
+        )
+
+        let app2 = new Vue({
+            el: "#app2",
+            data: {
+                link: "https://www.youtube.com/watch?v=ncv4dlvPUwU",
+                img: "image/waaaag.jpg",
+                alt: "Prepa to Waaaaaaaaag!!!",
+                seen: true
+            }
+        }
+        )
+    </script>
+</body>
+</html>
