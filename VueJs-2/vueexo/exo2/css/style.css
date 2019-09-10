@@ -3,13 +3,16 @@
 
 }
 .alert__block{
+    background-color: black;
     margin: 0.5em;
     padding: 0.2em;
     width: 20%;
     border-radius: 15px;
 }
 .alert__block p{
+    color:white;
     font-weight: 700;
+    text-shadow: 0.2em 0.1em #483d8b;
     text-align: center;
     font-size: 1.3em;
 }

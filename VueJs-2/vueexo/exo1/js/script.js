@@ -1,7 +1,8 @@
-Vue.component('alert', {
-    template: ` <div class="alert__block">
-                    <p>Tous les cris les SOS!!</p>
-                </div>`
+Vue.component('?', {
+    template: ` <div class="alert__block{{classi}}">
+                    <p>{{text}}</p>
+                </div>`,
+    props: ["message", "classi"],
   })
 
 let app = new Vue({
