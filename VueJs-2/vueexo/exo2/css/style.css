@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+
+}
+.alert__block{
+    margin: 0.5em;
+    padding: 0.2em;
+    width: 20%;
+    border-radius: 15px;
+    border: black solid 1px
+}
+.alert__block p{
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.success{
+    background-color: blue;
+}
+.failure{
+    background-color: red;
+}
