@@ -1,11 +1,9 @@
 <template>
-    <div class="boss">
+    <div class="foes">
         <Boss></Boss>
-        <div class="pack">
-            <Minions></Minions>
-            <Minions></Minions>
-            <Minions></Minions>
-        </div>
+        <Minions></Minions>
+        <Minions></Minions>
+        <Minions></Minions>
     </div>
 </template>
 <script>
@@ -22,8 +20,12 @@ export default {
 </script>
 
 <style>
-.pack{
+.foes{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    flex-direction: row-reverse;
 }
+
 </style>

@@ -18,12 +18,12 @@ export default {
 
 <style>
 .minions{
-    width: 30%;
+    width: 25%;
     position: relative;
 }
 #red{
     position: absolute;
-    left: 9vw;
+    left: 7vw;
     top:12vh;
     color: red;
 }
@@ -33,7 +33,7 @@ export default {
 }
 #purple{
     position: absolute;
-    left:18vw;
+    left:13.5vw;
     color: purple;
 }
 </style>

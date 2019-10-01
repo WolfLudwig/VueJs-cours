@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>Formortiis Fight!</h1>
     <Foes></Foes>
   </div>
 </template>
@@ -39,5 +40,8 @@ body{
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+Foes{
+
 }
 </style>
