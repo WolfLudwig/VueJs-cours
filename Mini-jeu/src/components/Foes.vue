@@ -22,7 +22,7 @@ export default {
 <style>
 .foes{
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(240, 240, 240, 0.3);
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
